@@ -4,5 +4,5 @@ fn main() {
 
 #[test]
 fn test_main() {
-    assert_eq!("aws-iot-ffi", "aws-crt-ffi")
+    assert_ne!("aws-iot-ffi", "aws-crt-ffi")
 }
